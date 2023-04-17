@@ -1,0 +1,589 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florar Jr</title>
+    
+    <link rel="shortcut icon" href="{% static 'imagem/logo.png'%}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'bs4/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'bs4/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'bs4/animation.css' %}" />
+
+    <script type="text/javascript" scr="{% static 'jquery.min.js' %}"></script>
+
+    <script>
+        $(function(){
+        $("#importblog").prepend('blog.html'); 
+        });
+    </script> 
+
+
+    <style type="text/css"> #importblog { width: 800px; height: 600px;} </style>
+
+    <script type="text/javascript" scr="{% static 'bs4/bootstrap.min.js'%}"></script>
+    <script type="text/javascript">
+        function abrirModal1() {
+            document.getElementById('modal').style.top = "0";
+        }
+        function fecharModal1() {
+            document.getElementById('modal').style.top = "-110%";
+        }
+
+
+        function abrirModal11() {
+            document.getElementById('modal11').style.top = "0";
+        }
+        function fecharModal11() {
+            document.getElementById('modal11').style.top = "-110%";
+        }
+
+
+        function abrirModal12() {
+            document.getElementById('modal12').style.top = "0";
+        }
+        function fecharModal12() {
+            document.getElementById('modal12').style.top = "-110%";
+        }
+
+
+        function abrirModal13() {
+            document.getElementById('modal13').style.top = "0";
+        }
+        function fecharModal13() {
+            document.getElementById('modal13').style.top = "-110%";
+        }
+
+
+        function abrirModal14() {
+            document.getElementById('modal14').style.top = "0";
+        }
+        function fecharModal14() {
+            document.getElementById('modal14').style.top = "-110%";
+        }
+
+        
+        function abrirModal15() {
+            document.getElementById('modal15').style.top = "0";
+        }
+        function fecharModal15() {
+            document.getElementById('modal15').style.top = "-110%";
+        }
+
+
+        function abrirModal16() {
+            document.getElementById('modal16').style.top = "0";
+        }
+        function fecharModal16() {
+            document.getElementById('modal16').style.top = "-110%";
+        }
+
+
+        function abrirModal17() {
+            document.getElementById('modal17').style.top = "0";
+        }
+        function fecharModal17() {
+            document.getElementById('modal17').style.top = "-110%";
+        }
+
+
+        function abrirModal2() {
+            document.getElementById('modal2').style.top = "0";
+        }
+        function fecharModal2() {
+            document.getElementById('modal2').style.top = "-110%";
+        }
+
+
+        function abrirModal3() {
+            document.getElementById('modal3').style.top = "0";
+        }
+        function fecharModal3() {
+            document.getElementById('modal3').style.top = "-110%";
+        }
+        
+        function abrirModal21() {
+            document.getElementById('modal21').style.top = "0";
+        }
+        function fecharModal21() {
+            document.getElementById('modal21').style.top = "-110%";
+        }
+
+        
+        function abrirModal22() {
+            document.getElementById('modal22').style.top = "0";
+        }
+        function fecharModal22() {
+            document.getElementById('modal22').style.top = "-110%";
+        }
+
+        
+        function abrirModal23() {
+            document.getElementById('modal23').style.top = "0";
+        }
+        function fecharModal23() {
+            document.getElementById('modal23').style.top = "-110%";
+        }
+
+        
+        function abrirModal24() {
+            document.getElementById('modal24').style.top = "0";
+        }
+        function fecharModal24() {
+            document.getElementById('modal24').style.top = "-110%";
+        }
+
+        
+        function abrirModal25() {
+            document.getElementById('modal25').style.top = "0";
+        }
+        function fecharModal25() {
+            document.getElementById('modal25').style.top = "-110%";
+        }
+
+
+        function abrirModal26() {
+            document.getElementById('modal26').style.top = "0";
+        }
+        function fecharModal26() {
+            document.getElementById('modal26').style.top = "-110%";
+        }
+
+
+        function abrirModal27() {
+            document.getElementById('modal27').style.top = "0";
+        }
+        function fecharModal27() {
+            document.getElementById('modal27').style.top = "-110%";
+        }
+
+        function iniciarSlider() {
+            max = 7;
+            min = 1;
+            fi = min;
+            carregaFoto("{%static 'imagem/f1.jpg' %}")
+        }
+
+        function carregaFoto(foto){
+            document.getElementById("moldura").style.backgroundImage="URL("+foto+")";
+        }
+
+        function prox(){
+            fi++;
+            carregaFoto("{%static 'imagem/f"+f1+".jpg'");
+        }
+
+
+    </script>
+</head>
+<body onload="iniciarSlider()">
+
+    <section class="slider-frame">
+        <div class="fotos">
+            <img src="{%static 'imagem/imagem1.jpg' %}" alt="">
+            <img src="{%static 'imagem/imagem2.jpg' %}" alt="">
+            <img src="{%static 'imagem/imagem3.jpg' %}" alt="">
+            <img src="{%static 'imagem/imagem4.jpg' %}" alt="">
+            <img src="{%static 'imagem/imagem5.jpg' %}" alt="">  
+            <img src="{%static 'imagem/imagem1.jpg' %}" alt="">    
+        </div>   
+    </section>
+
+
+    <div class="div111" width='100%'>
+        
+        <div class="div11">
+            <div class="slider">
+                <div class="slides">
+
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+
+                    <div class="slide first">
+                        <img src="{%static 'imagem/quemsomos.jpg' %}" alt="">  
+                    </div>
+
+                    <div class="slide">
+                        <img src="{%static 'imagem/imagem2.jpg' %}" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="{%static 'imagem/imagem3.jpg' %}" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="{%static 'imagem/imagem4.jpg' %}" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="{%static 'imagem/imagem5.jpg' %}" alt=""> 
+                    </div>
+
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                    </div>
+
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
+                    </div>
+
+
+                </div>
+
+                <script type="text/javascript">
+                    let count=1;
+                    document.getElementById("radio1").checked = true;
+
+                    setInterval( function(){
+                        nextImage();
+                    }, 5000)
+
+                    function nextImage(){
+                        count++;
+                        if(count>5){
+                            count=1;
+                        }
+
+                        document.getElementById("radio"+count).checked = true;
+                    }
+                    
+                </script>
+            </div>
+        </div>
+
+
+        <div class="div45">
+            <h1 class="texto44"> QUEM SOMOS</h1>
+            <p class="texto1">
+                A Florar Consultoria Florar Jr é uma empresa júnior
+                composta por
+                engenheiros florestais em formação na
+                Universidade Federal Rural de Pernambuco (UFRPE),
+                preparados para lidar com projetos relacionados às áreas
+                florestal e ambiental.
+                Sob a orientação e o apoio de professores e profissionais
+                credenciados pelo CREA, nós prestamos serviços de
+                qualidade,
+                presando sempre pela ética e responsabilidade
+                do planejamento à execução.
+            </p>
+        </div>
+    </div>
+
+    <div class="div3" width='100%' id="servicos">
+        <h6 class="texto4"> SERVIÇOS</h6>
+        <div class="agora">
+            <div class="divSer">
+                <a onclick="abrirModal1()"><img src="{%static 'imagem/serv11.jpg' %}" class="opcao"></a>
+                <div class="titulomodal">
+                    <h7 class="texto">ARBORIZAÇÃO URBANA</h7>
+                </div>
+                    <div class="bg-modal" id="modal">
+                        <h7 class="texto33">Arborização Urbana</h7>
+                        <div class="alinhar">
+                            <div class="alinhar2">
+                                <h7 class="textot">Plantio de mudas e harmonização paisagística</h7>
+
+                                <a onclick="abrirModal11()"><img src="{%static 'imagem/serv11.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal11" id="modal11">
+                                    <p class="textott">
+                                        Fazemos projetos de implantação de
+                                        árvores em ambientes urbanos, como
+                                        condomínios residenciais, parques industriais,
+                                        áreas comerciais de convivência, áreas verdes
+                                        urbanas particulares e públicas, de forma a
+                                        escolher a melhor espécie para as melhores
+                                        condições de plantio.                                        
+                                    </p>
+                                    
+                                    <button class="s" onclick="fecharModal11()">Sair</button>
+                                </div>
+                            </div>
+                            <div class="alinhar2">
+                                <h7 class="textot">Poda e supressão de árvores</h7>
+
+                                <a onclick="abrirModal12()"><img src="{%static 'imagem/serv11.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal12" id="modal12">
+                                    <p class="textott">
+                                        Buscamos as autorizações ambientais
+                                        pertinentes à realização de ambos os serviços
+                                        junto ao órgão ambiental competente, bem
+                                        como a realização do serviço e respectiva
+                                        compensação ambiental, de forma que o
+                                        cliente tenha o mínimo de trabalho e
+                                        menor impacto ambiental.                                                                               
+                                    </p>
+
+                                    <button class="s" onclick="fecharModal12()">sair</button>
+                                </div>
+                            </div>
+                            <div class="alinhar2">
+                                <h7 class="textot">Dendrocirurgia</h7>
+                                <a onclick="abrirModal13()"><img src="{%static 'imagem/serv11.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal13" id="modal13">
+                                    <p class="textott">
+                                        Oferecemos essa técnica de recuperação
+                                        fitossanitária realizada em árvores que
+                                        apresentem injúrias ou cavidades no tronco
+                                        ou galhos, que comprometam a sua
+                                        estabilidade, oferecendo risco futuro para
+                                        as pessoas e espécies vegetais vizinhas.                                                                                                                      
+                                    </p>
+                                    
+                                    <button class="s" onclick="fecharModal13()">sair</button>
+                                </div>                            
+                            </div>
+
+                            <div class="alinhar2">
+                                <h7 class="textot">Controle de Pragas</h7>
+
+                                <a onclick="abrirModal14()"><img src="{%static 'imagem/serv11.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal14" id="modal14">
+                                    <p class="textott">
+                                        Atuamos diretamente no combate a cupins,
+                                        brocas, formigas carpinteiras, pulgões,
+                                        lagartas, entre outras pragas. Esses
+                                        organismos além de danificar principalmente
+                                        a arborização urbana, também podem afetar
+                                        nos aspectos paisagísticos e, em casos mais
+                                        severos, levar o indivíduo à morte.                                                                                                                     
+                                    </p>
+                                    
+                                    <button class="s" onclick="fecharModal14()">Sair</button>
+                                </div>                            
+                            </div>
+
+                            <div class="alinhar2">
+                                <h7 class="textot">Laudo técnico</h7>
+
+                                <a onclick="abrirModal15()"><img src="{%static 'imagem/serv11.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal15" id="modal15">
+                                    <p class="textott">
+                                        Documento simplificado descrevendo as
+                                        informações técnicas do local, como a
+                                        existência ou não de cobertura vegetal,
+                                        recursos hídricos e zoneamentos de APP
+                                        (Área de Proteção Permanente), além de
+                                        uma imagem de satélite zoneando a
+                                        área.                                                                                                                   
+                                    </p>
+
+                                    <button class="s" onclick="fecharModal15()">Sair</button>
+                                </div>                            
+                            </div>
+
+                            <div class="alinhar2">
+                                <h7 class="textot">Compensação ambiental</h7>
+
+                                <a onclick="abrirModal16()"><img src="{%static 'imagem/serv11.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal16" id="modal16">
+                                    <p class="textott">
+                                        Trabalhamos com esse mecanismo legal que
+                                        visa contrabalancear os impactos
+                                        ambientais previstos ou já ocorridos na
+                                        implantação de um empreendimento. Essa
+                                        forma de indenização, seja na forma
+                                        financeira ou no restabelecimento de serviços
+                                        de ordem socioambiental, são medidas a fim
+                                        de se minimizar os impactos sofridos
+                                        direta ou indiretamente em um local.                                                                                                                                                      
+                                    </p>
+
+                                    <button class="s" onclick="fecharModal16()">Sair</button>
+                                </div>                            
+                            </div>
+                            <div class="alinhar2">
+                                <h7 class="textot">Educação Ambiental</h7>
+                                
+                                <a onclick="abrirModal17()"><img src="{%static 'imagem/serv11.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal17" id="modal17">
+                                    <p class="textott">
+                                        Realizamos atividades recreativas,
+                                        temáticas ou não, para empresas, escolas,
+                                        ONGs e sociedade no geral, com o objetivo de
+                                        despertar a consciência ambiental,
+                                        destacando a importância do aumento de
+                                        práticas sustentáveis e a redução dos danos
+                                        ambientais.                                                                                                                                                         
+                                    </p>
+
+                                    <button class="s" onclick="fecharModal17()">Sair</button>
+                                </div>                            
+                            </div>
+                        </div>
+                        <button class="s" onclick="fecharModal1()">Sair</button>
+                    </div>
+            </div>
+
+            <div class="divSer2">
+                <a onclick="abrirModal2()"><img src="{%static 'imagem/serv22.jpg' %}" class="opcao"></a>
+                    <div class="titulomodal">
+                        <h7 class="texto">EDUCAÇÃO AMBIENTAL</h7>
+                    </div>
+                    <div class="bg-modal2" id="modal2">
+                        <h7 class="texto33">Educação Ambiental</h7>
+                        <div class="alinhar">
+                            <div class="alinhar2">
+                                <h7 class="textot">Plano de manejo</h7>
+
+                                <a onclick="abrirModal21()"><img src="{%static 'imagem/serv22.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal21" id="modal21">
+                                    <button class="s" onclick="fecharModal21()">sair</button>
+                                </div>
+                            </div>
+                            <div class="alinhar2">
+                                <h7 class="textot">Inventário Florestal</h7>
+
+                                <a onclick="abrirModal22()"><img src="{%static 'imagem/serv22.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal22" id="modal22">
+                                    <button class="s" onclick="fecharModal22()">sair</button>
+                                </div>
+                            </div>
+                            <div class="alinhar2">
+                                <h7 class="textot">Planejamento e manejo de florestas plantadas</h7>
+                                <a onclick="abrirModal23()"><img src="{%static 'imagem/serv22.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal23" id="modal23">
+                                    <button class="s" onclick="fecharModal23()">sair</button>
+                                </div>                            
+                            </div>
+
+                            <div class="alinhar2">
+                                <h7 class="textot">Projeto de Recuperação de Áreas Degradadas(PRAD)</h7>
+
+                                <a onclick="abrirModal24()"><img src="{%static 'imagem/serv22.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal24" id="modal24">
+                                    <button class="s" onclick="fecharModal24()">sair</button>
+                                </div>                            
+                            </div>
+
+                            <div class="alinhar2">
+                                <h7 class="textot">Fertilização de solos</h7>
+
+                                <a onclick="abrirModal25()"><img src="{%static 'imagem/serv22.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal25" id="modal25">
+                                    <button class="s" onclick="fecharModal25()">sair</button>
+                                </div>                            
+                            </div>
+
+                            <div class="alinhar2">
+                                <h7 class="textot">Planejamento de sistemas agroflorestais</h7>
+
+                                <a onclick="abrirModal26()"><img src="{%static 'imagem/serv22.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal26" id="modal26">
+                                    <button class="s" onclick="fecharModal26()">sair</button>
+                                </div>                            
+                            </div>
+                            <div class="alinhar2">
+                                <h7 class="textot">Mapeamento florestal</h7>
+                                
+                                <a onclick="abrirModal27()"><img src="{%static 'imagem/serv22.jpg' %}" class="opcao2"></a>
+                                <div class="bg-modal27" id="modal27">
+                                    <button class="s" onclick="fecharModal27()">sair</button>
+                                </div>                            
+                            </div>
+                        </div>
+                        <button class="s" onclick="fecharModal2()">Sair</button>
+                    </div>
+            </div>
+
+            <div class="divSer3">
+                <a onclick="abrirModal3()"><img src="{%static 'imagem/terceiroServiço.jpg' %}" class="opcaoo"></a>
+                <div class="titulomodal">
+                    <h7 class="texto">SILVICULTURA E MANEJO FLORESTAL</h7>
+                </div>
+                    <div class="bg-modal3" id="modal3">
+                        <h7 class="texto33">Plano de manejo</h7>
+                        <button class="close2" onclick="fecharModal3()">&times;</button>
+                        <div class="alinhar">
+                            <img src="{%static 'imagem/setaesquerda.png' %}" class="setae">
+                            <div id="moldura"></div>
+                            <input type="button" value="Anterior"/>
+                            <input type="button" value="Próximo" onclick="prox()"/>
+                            <img src="{%static 'imagem/serv22.jpg' %}" class="opcao2">
+                            <div class="textodomodal">
+                                <span> 
+                                    O manejo florestal pode ser conceituado como “a aplicação de informações biológicas, técnicas e econômicas no controle das operações florestais, a fim de manter o nível de rendimentos líquidos dos detentores no máximo possível, considerando todos os seus objetivos e responsabilidades”, combinando produção com a</span>
+                            </div>
+                            <div class="bg-modal21" id="modal21">
+                                <button class="s" onclick="fecharModal21()">sair</button>
+                            </div>
+                            <img src="{%static 'imagem/setadireita.png' %}" class="setad">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="div1" width='100%'>
+        <div class="historia">
+            <div class="hist">
+                <h10> <b>8</b> </h10>
+                <p>ANOS DE HISTÓRIA</p>
+            </div>
+            <div class="hist">
+                <h10> <b>+90</b> </h10>
+                <p>PROJETOS REALIZADOS</p>
+            </div>
+            <div class="hist">
+                <h10> <b>+100 </b></h10>
+                <p>CLIENTES SATISFEITOS</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog" width='100%'>
+        <h6 class="texto4"> NOSSO BLOG</h6>
+
+        <div id="importblog">
+
+        </div>
+    </div>
+
+    <div class="envios" width='100%'>
+        <div class="formulario">
+            <h11 class="texto44 "> FALE CONOSCO</h11>
+            <div class="dentrodoform">
+                <form> 
+                    <div>
+                        <input  type="text" placeholder="NOME: " required />
+                    </div>
+                    <div>
+                        <input type="text" placeholder="E-MAIL: " required />
+                    </div>
+                    <div>
+                        <input type="text" placeholder="TELEFONE: " required />
+                    </div>
+                    <div>
+                        <textarea placeholder="DEIXE SUA IDEIA: " required/></textarea>
+                    </div>
+                    <div>
+                        <button class="ss">ENVIAR</button>
+                    </div>
+                    
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+{% endblock %}

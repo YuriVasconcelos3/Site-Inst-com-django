@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    
+    <link rel="shortcut icon" href="{% static 'imagem/logo.png'%}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'bs4/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'bs4/bootstrap.min.css' %}" />
+
+    <script type="text/javascript" scr="{% static 'jquery.min.js' %}"></script>
+
+    <script type="text/javascript" scr="{% static 'bs4/bootstrap.min.js'%}"></script>
+</head>
+<body>
+    <main class="container py-5">
+
+        <div class="rowblog">
+                <div class="col-sm-6">
+
+                <div class="hard">
+                    <div class="card-body">
+                    <h5 class="card-title"> {% block title %} {{ object.title }} {% endblock title %} </h5>
+                    <p class="card-text">{{ object.content | safe}}  </p>
+                    
+                    <a href="{% url 'blog' %}" class="button2"> Voltar </a>
+
+
+                    </div>
+
+                </div>
+                </div>
+
+            
+        </div>
+
+
+    </main>
+</body>
+</html>
+
+{% endblock %}

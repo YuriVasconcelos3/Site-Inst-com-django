@@ -1,0 +1,147 @@
+
+
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    
+    <link rel="shortcut icon" href="{% static 'imagem/logo.png'%}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'bs4/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'bs4/bootstrap.min.css' %}" />
+
+    <script type="text/javascript" scr="{% static 'jquery.min.js' %}"></script>
+
+    <script type="text/javascript" scr="{% static 'bs4/bootstrap.min.js'%}"></script>
+</head>
+<body>
+   
+</body>
+
+    <nav class="navbar navbar-expand fixed-top test">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <img src="{%static 'media/images/logo.png'%}" width="30px" height="40px"/>
+        </li>
+        <li class="nav-item">
+            <a class="navbar-brand text-white" href="/index">Florar Jr</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" id="inicio" href="/index">Início</a>      
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link text-white" id="quem" href="/index#quemsomos">Quem Somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" id="serv" href="/index#servicos">Serviços</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" id="contat" href="/index#footer">Nossos Contatos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" id="blog" href="/blog">Blog</a>
+
+            <script>
+                const blog = document.querySelector("#blog");
+            
+                window.addEventListener('scroll', () =>{
+                    if (window.scrollY > 0) {
+                    blog.classList.add('addinicio')
+                    }
+                    else {
+                    blog.classList.remove('addinicio')
+                    }
+                })
+                </script> 
+        </li>
+        </ul>
+    </nav>
+    <script>
+    const nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', () =>{
+        if (window.scrollY > 0) {
+        nav.classList.add('active_nav')
+        }
+        else {
+        nav.classList.remove('active_nav')
+        }
+    })
+    </script>
+
+
+  <div class="container py-5">
+
+          
+      <div class="rowblog">
+            
+          {% for post in post_list %}
+
+                      <div class="postagem">
+
+                        <div class="hard">
+                          <div class="card-body">
+                            <h5 class="card-title"> {{ post.title }} </h5>
+                            <p class="card-text"> {{ post.content|slice:":50" }}  </p>
+                            <a href="{% url 'post_detail' post.slug %}" class="button2"> Continuar Leitura... </a>
+                          </div>
+                        </div>
+                      </div>
+          {% endfor %}
+
+      </div>
+
+  </div>
+
+
+<footer class="pt-3 my-md-6 pb-0 container-fluid" id="footer">
+  <div class="row">
+    <div class="rodape">
+      <link rel="stylesheet" type="text/css" href="{% static 'bs4/bootstrap.min.css' %}" />
+      <img src="{%static 'imagem/logo.png'%}" width="70px" height="90px"/>
+    </div>
+    <div class="rodape">
+      <div class="col6 col-md">
+        <ul class="list-unstyled text-small">
+          <h2 class="text-light"> Localização: </h2>
+          <li> <a class="d-block text-light" href="https://goo.gl/maps/6KZvoxPSXj44WNrS9" target="_blank"> Florar Consultoria Ambiental Jr<p> Dois Irmãos, Recife - PE</p></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rodape">
+      <div class="redesSociais">
+        <h3 class="text-light"> Contatos:</h3>
+        <a href="https://www.facebook.com/florarconsultoriaambientaljr/" target="_blank"><i class="fa fa-facebook face"></i> </a> 
+        <a href="https://www.instagram.com/florarconsultoriajr/" target="_blank"><i class="fa fa-instagram"></i> </a> 
+        <a href="https://www.linkedin.com/company/florarjr/?originalSubdomain=br" target="_blank"><i class="fa fa-linkedin"></i> </a> 
+      </div>
+    </div>
+    <div class="rodape">
+      <ul class="list-unstyled text-small">
+        <a class="d-block mb-2 text-light">&copy;
+          <py-script>
+
+            from datetime import date
+            data = date.today()
+            print(data)
+          </py-script>
+        </a>
+      </ul>
+
+    </div>
+  </div>
+</footer>
+
+
+
+

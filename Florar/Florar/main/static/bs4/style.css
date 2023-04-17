@@ -1,0 +1,1210 @@
+.button {
+    display: inline-block;
+    margin-top: 3px;
+	font-size: 14pt;
+	font-weight: 500;
+	background-color: white;
+	color: #41A68E;
+	border-radius: 4px;
+	padding: 0.5% 1% 0.5% 1%;
+	box-shadow: 2px 3px 0 rgb(0, 34, 8);
+	cursor: pointer;
+}
+
+.button:hover{
+    color: white;
+    background-color: #41A68E;
+}
+
+
+
+.button2 {
+    display: inline-block;
+    margin-top: 3px;
+	font-size: 14pt;
+	font-weight: 500;
+	background-color: #41A68E;
+	color: white;
+	border-radius: 4px;
+	padding: 0.5% 1% 0.5% 1%;
+	box-shadow: 2px 3px 0 rgb(0, 34, 8);
+	cursor: pointer;
+    width: 170px;
+    text-align-last: center;
+}
+
+
+.button2:hover{
+    color: #41A68E;
+    background-color: white;
+}
+
+
+.redesSociais{
+    margin-right: 50px;
+    
+}
+
+
+.redesSociais a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 55px;
+    margin: 0px 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50% ;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+}
+
+.redesSociais a:hover{
+    color: #41A68E;
+    background-color: white;
+}
+
+.redesSociais a i{
+    font-size: 36px;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.face{
+    margin-right: 4px;
+}
+
+.divv{
+    background-color: #41A68E;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.row{
+    margin-bottom: 20;
+    margin: auto;
+    display: flex;
+}
+
+.rodape{
+    display: inline-flex;
+    margin:  auto;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.test{
+    background-color: #18745B;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.test2{
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 250px;
+}
+
+
+.form-sub{
+    margin-bottom: 15px;
+}
+
+
+.agora{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.div1{
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagem/resultados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.blog{
+    height: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../imagem/blog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.envios{
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagem/envios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.envios input{
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+}
+
+.formulario{
+    margin-right: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dentrodoform{
+    box-shadow: inset 0 0 10px 10px #32917949;
+}
+
+.envios input::placeholder {
+    color: #18745B;
+    font-weight: bold;
+}
+
+.envios textarea {
+    margin-top: 10px;
+    height: 200px;
+    width: 400px;
+}
+
+.envios textarea::placeholder {
+    color: #18745B;
+    font-weight: bold;
+}
+
+.div1memb{
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagem/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid black;
+}
+
+.div11{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    border: 5px outset #41a68e63;
+}
+
+
+.div111{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(../imagem/quem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 730px;  
+}
+
+.div3{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagem/servicos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+
+}
+
+.div4{
+    height: 400px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.div45{
+    height: 200px;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 120px;
+    margin-bottom: 120px;
+}
+
+.div44{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    background-color: #FDFFFF;
+    border-radius: 40px;
+    width: 350px;
+    height: 450px;
+    border: 5px outset #f6f7f9ab;
+}
+
+
+
+.lps{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slider-frame{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position:relative;
+}
+
+.slide img{
+    width: 650px;
+    height: 450px;
+}
+
+.manual-navigation{
+    position:absolute;
+    width: 650px;
+    display: flex;
+    justify-content: end;
+    margin-top: 350px;
+}
+
+.manual-btn{
+    width: 25px;
+    height: 25px;
+    border:4px solid #41A68E;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 50px;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.manual-btn:hover{
+    background-color: #41A68E;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.navigation-auto div{
+    border: 4px solid #41A68E;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 50px;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 650px;
+    margin-top: 350px;
+    display: flex;
+    justify-content:end ;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 20px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #41A68E;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #41A68E;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #41A68E;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #41A68E;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #41A68E;
+}
+
+.slider-frame .fotos{
+    display: flex;
+    width: 600%;
+    height: 680px;
+    animation: slide 30s infinite;
+
+}
+
+.slider-frame .fotos img{
+    width: 16.67%;
+}
+
+.slider-frame2 .fotos2 img{
+    width: 16.66%;
+}
+
+@keyframes slide {
+    0%{margin-left: 0;}
+    12.5%{margin-left: 0;}
+
+    17.5%{margin-left: -100%;}
+    30%{margin-left: -100%;}
+
+    35%{margin-left: -200%;}
+    47.5%{margin-left: -200%;}
+
+    52.5%{margin-left: -300%;}
+    65%{margin-left: -300%;}
+
+    70%{margin-left: -400%;}
+    82.5%{margin-left: -400%;}
+
+    87.5%{margin-left: -500%;}
+    100%{margin-left: -500%;}
+
+}
+
+.divSer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.divSer2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.divSer3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.titulomodal{
+    display: flex;
+    background-color:#18745B;
+    width: 300px;
+    height: 100px;  
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto{
+    color: white;
+    font-size: 30px;
+}
+
+.texto1{
+    color: white;
+    font-size: 22px;
+}
+
+.texto2{
+    color: white;
+    font-size: 100px;
+}
+
+.texto3{
+    color: black;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.texto33{
+    color: #41A68E;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.texto4{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: #18745B;
+}
+
+.texto44{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.textot{
+    color: black;
+    margin-top: auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.textott{
+    color: black;
+    margin-top: auto;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.textoBB{
+    color: #0a2e24;
+    margin-top: 5px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 40px;
+
+}
+
+
+.blog1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form1 {
+    width: 40%;
+    margin: 20px 0;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+nav ul{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+nav{
+    background: #343a40;
+}
+
+.active_nav{
+    background: #18745bb7;
+}
+
+.addinicio{
+    background-color: #41A68E;
+}
+
+#inicio:hover{
+    background-color: #41A68E;
+}
+
+#quem:hover{
+    background-color: #41A68E;
+}
+
+
+#serv:hover{
+    background-color: #41A68E;
+}
+
+#port:hover{
+    background-color: #41A68E;
+}
+
+
+#contat:hover{
+    background-color: #41A68E;
+}
+
+
+#memb:hover{
+    background-color: #41A68E;
+}
+
+#blog:hover{
+    background-color: #41A68E;
+}
+
+
+.bg-modal {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: 42%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;   
+}
+
+.modal span:houver {
+	color: #990000;
+	transition:350ms;
+}
+
+
+.bg-modal11 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -5%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal12 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -18.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal13 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -31.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal14 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -44.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal15 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -57.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal16 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -70.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal17 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -83.3%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal2 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -42%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-modal21 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -5%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal22 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -18.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal23 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -31.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal24 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -44.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal25 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -57.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal26 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -70.2%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal27 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -83.3%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 2px solid #000;
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 90%), url(../imagem/plantio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+
+.bg-modal3 {
+	width: 70%;
+	height: 80%;
+	position:fixed;
+    margin-top: 6%;
+    margin-left: -42%;
+	z-index: 2;
+	top: -110%;
+	transition: 350ms;
+	background-color: #fff;
+    border: 3px outset rgba(0, 0, 0, 0.192);
+
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.opcao{
+	width: 300px;
+    height: 300px;
+	cursor: pointer;
+}
+
+.opcaoo{
+	width: 300px;
+    height: 300px;
+	cursor: pointer;
+}
+
+.opcao2{
+	width: 250px;
+    height: 320px;
+    border: 5px outset #f6f7f9ab;
+    border-radius: 40px;
+    margin-left: 50px;
+}
+
+.textodomodal{
+    width: 250px;
+    margin-left: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+
+.opcao2memb{
+	width: 250px;
+	cursor: pointer;
+    border: 10px solid rgba(0, 0, 0, 0.247) ;
+    border-radius: 10px;
+    margin: auto;
+   
+}
+
+.close{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 100px 0 0 -18px;
+    background-color: #000;
+}
+
+.close2{
+    font-size: 40px;
+    transition: 350ms;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    border: 0;
+    background-color: rgba(0, 0, 255, 0);
+    color: #41A68E;
+}
+
+.s{
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+	font-size: 14pt;
+	font-weight: 500;
+	background-color: #41A68E;
+	color: white;
+	border-radius: 4px;
+	padding: 0.5% 1% 0.5% 1%;
+	box-shadow: 2px 3px 0 rgba(0, 34, 8, 0.329);
+	cursor: pointer;
+}
+
+.s:hover{
+    color: #41A68E;
+    background-color: white;
+}
+
+.ss{
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+	font-size: 14pt;
+	font-weight: 500;
+	background-color: white;
+	color: #41A68E;
+	border-radius: 4px;
+	padding: 0.5% 1% 0.5% 1%;
+	box-shadow: 2px 3px 0 rgba(0, 34, 8, 0.329);
+	cursor: pointer;
+}
+
+.ss:hover{
+    color: white;
+    background-color: #41A68E;
+}
+
+.alinhar{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 600px;
+}
+
+::-webkit-scrollbar{
+    width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #41a68e8e;
+}
+
+footer {
+    margin-bottom:  -160px;
+    background-color: #18745B;
+}
+
+
+.rowblog{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.postagem{
+    border: solid 15px #41A68E;
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.setad{
+    height: 10%;
+    width: 5%;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.setae{
+    height: 10%;
+    width: 5%;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+.logodaflorar{
+    display: flex;
+    flex-direction: row;
+}
+
+.historia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:  auto;
+    align-items: center;
+}
+
+.hist{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin:  auto;
+    align-items: center;
+    text-align: justify;
+    margin-left: 50px ;
+    margin-right: 50px;
+    
+}
+
+.hist h10{
+    font-size: 100px;
+}
+
+#moldura{
+    width: 250px;
+    height: 320px;
+    background-color: #eeeeee;
+    transition:background-image 2s;
+    background-size: cover
+}
